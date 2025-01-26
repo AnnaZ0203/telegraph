@@ -237,3 +237,21 @@ background-color: #27272b33;
 .no-scroll{
     overflow: hidden;
 }
+
+.input:disabled{
+  border-color:brown ;
+}
+.checkbox:checked{
+  background-color: #ff0043;
+  border: 4px solid green;
+
+}
+input:required{
+border-color: orange;
+}
+input:valid{
+  border: 3px solid green;
+}
+.input:placeholder-shown{
+  color: red;
+}
