@@ -220,6 +220,7 @@ width: 100%;
 height: 100%;
 opacity: 1;
 background-color: #27272b33;
+transition: opacity 0.5ms cubic-bezier(0.83, -0.08, 0.32, 1 ) 1ms, visibility 0.5ms cubic-bezier(0.83 -0.08 0.32 1 ) 1s ;
 }
 .model {
   position: absolute;
@@ -229,10 +230,12 @@ background-color: #27272b33;
   height: 350px;
   background-color: #ffffff;
   transform: translate(-50% ,-50%);
+  transition: opacity 0.5ms cubic-bezier(0.83, -0.08, 0.32, 1 ) 1ms;
 }
 .backdrop.is-hidden{
     pointer-events: none;
     opacity: 0;
+    visibility: hidden;
 }
 .no-scroll{
     overflow: hidden;
@@ -254,4 +257,25 @@ input:valid{
 }
 .input:placeholder-shown{
   color: red;
+}
+.btn-open{
+  background-color: red;
+}
+.btn-open:hover{
+  background-color: green;
+animation-name:change-bg-color ;
+animation-duration: 1000ms;
+animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+/*оголошення анімаціі */
+@keyframes change-bg-color{
+  0%{
+background-color: #ffb916;
+  }
+  50%{
+    background-color: pink;
+  }
+  100%{
+background-color: rgb(11, 10, 10);
+  }
 }
