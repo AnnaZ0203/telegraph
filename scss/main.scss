@@ -1,0 +1,26 @@
+.root {
+  --red: #ff0043;
+  --footerblue: #00194a;
+  --blue: #00194a;
+  --white: #ffffff;
+  --text: #00194a42;
+}
+ul {
+  list-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+ul,
+li,
+a,
+button,
+form {
+  margin: 0;
+  padding: 0;
+}
+
+@import "components/download";

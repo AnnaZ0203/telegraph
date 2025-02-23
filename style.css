@@ -302,3 +302,47 @@ right: 0;
 bottom: 0;
   }
 }
+
+
+.baton{
+  width: 70px;
+  height: 70px;
+  background-color: #c69bee;
+  border-radius: 50%;
+  border: 1px solid transparent;
+position: absolute;
+
+
+  
+}
+.baton-anim{
+    width: 70px;
+  height: 70px;
+  background-color: #c69bee;
+  border-radius: 50%;
+  border: 1px solid transparent;
+position: relative;
+left: 50%;
+animation-name:change-size;
+animation-duration: 3s;
+animation-delay:0s;
+animation-iteration-count: infinite;
+animation-direction: reverse;
+animation-fill-mode: backwards;
+}
+@keyframes change-size {
+0%{
+ transform: scale(1.1);
+}
+50%{
+ transform: scale(1,1);
+  background-color: #c69beebc;
+}
+80%{
+  transform: scale(2.2);
+  background-color: #c69bee66;}
+100%{
+transform: scale(3.3);
+  background-color: #c69bee27;
+}
+}
