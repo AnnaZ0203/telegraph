@@ -1,0 +1,67 @@
+.stuff {
+  display: flex;
+}
+.stuff-text {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 28px;
+  text-align: left;
+  margin-bottom: 15px;
+}
+.stuff-title {
+  font-family: "Roboto", sans-serif;
+  font-size: 35px;
+  font-weight: 500;
+  line-height: 50px;
+  text-align: left;
+  margin-bottom: 30px;
+  margin-top: 100px;
+}
+.stuff-texttwo {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 28px;
+  text-align: left;
+}
+
+.stuff-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.stuff-item {
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 6px 0px 25px 0px #00000008;
+  margin-bottom: 30px;
+}
+.stuff-list-title {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21.09px;
+  text-align: left;
+  margin-bottom: 15px;
+}
+.stuff-list-text {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 23px;
+  text-align: left;
+}
+.stuff-icon {
+  width: 42px;
+  height: 48px;
+  margin-bottom: 26px;
+}
+
+.stuff-itemtwo {
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 6px 0px 25px 0px #00000008;
+  position: relative;
+  top: 150px;
+  margin-left: 30px;
+}
