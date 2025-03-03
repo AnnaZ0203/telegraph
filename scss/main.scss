@@ -1,12 +1,14 @@
 
-@import "base/reset";
+
+@import "base/recet";
 @import "base/common";
 
 @import "utils/variables";
-
+@import "components/header";
+@import "components/hero";
 
 @import "components/download";
-
+@import "components/quick";
 @import "components/stuff";
 @import "components/keep";
 @import "components/modalka";
