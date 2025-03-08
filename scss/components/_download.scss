@@ -30,7 +30,7 @@
   line-height: 25.78px;
   text-align: left;
   margin-bottom: 15px;
-  color: var(--text);
+  color: $text;
   opacity: 0.8;
 }
 .download-text {
@@ -39,7 +39,7 @@
   font-weight: 300;
   line-height: 26px;
   text-align: left;
-  color: var(--text);
+  color: $text;
   margin-bottom: 20px;
   opacity: 0.5;
 }
@@ -52,7 +52,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  color: var(--text);
+  color: $text;
 }
 .text {
   opacity: 0.5;

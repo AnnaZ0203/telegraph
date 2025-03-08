@@ -32,14 +32,6 @@ body {
   padding: 0 15px;
 }
 
-.root {
-  --red: #ff0043;
-  --footerblue: #00194a;
-  --blue: #00194a;
-  --white: #ffffff;
-  --text: #00194a42;
-}
-
 .header {
   display: flex;
   align-items: center;
@@ -132,7 +124,7 @@ body {
   line-height: 25.78px;
   text-align: left;
   margin-bottom: 15px;
-  color: var(--text);
+  color: rgba(0, 25, 74, 0.2588235294);
   opacity: 0.8;
 }
 
@@ -142,7 +134,7 @@ body {
   font-weight: 300;
   line-height: 26px;
   text-align: left;
-  color: var(--text);
+  color: rgba(0, 25, 74, 0.2588235294);
   margin-bottom: 20px;
   opacity: 0.5;
 }
@@ -156,7 +148,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  color: var(--text);
+  color: rgba(0, 25, 74, 0.2588235294);
 }
 
 .text {
