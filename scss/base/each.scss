@@ -1,0 +1,13 @@
+$list: light, normal, bold, bolder;
+
+@each $value in $list{
+    .title--#{value}{
+        font-weight: $value;
+    }
+}
+
+.calc{
+    width: calc(100% - 30px);
+ 
+    padding: cal($width - 2px);
+}

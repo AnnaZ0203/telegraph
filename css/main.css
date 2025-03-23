@@ -68,10 +68,10 @@ body {
   line-height: 1.4;
   margin-bottom: 20px;
 }
-.hero-text {
+.hero__text {
   margin-bottom: 50px;
 }
-.hero-btn {
+.hero__btn {
   font-family: "Source Sans Pro";
   font-weight: 700;
   font-size: 16px;
@@ -83,14 +83,14 @@ body {
   padding: 20px 70px;
   border-color: transparent;
 }
-.hero-btn-btn:hover {
+.hero__btn-btn:hover {
   background-color: #820526;
 }
-.hero-wrap {
+.hero__wrap {
   margin-right: 38px;
   width: 520px;
 }
-.hero-img {
+.hero__img {
   position: relative;
   left: 550px;
   bottom: 450px;
@@ -175,7 +175,7 @@ body {
   border-radius: 25px;
   display: block;
 }
-.quick-title {
+.quick__title {
   margin-top: 50px;
   color: white;
   font-family: "Roboto", sans-serif;
@@ -186,7 +186,7 @@ body {
   text-align: center;
   margin-bottom: 30px;
 }
-.quick-text {
+.quick__text {
   font-family: "Roboto", sans-serif;
   font-weight: 300;
   font-size: 18px;
@@ -196,7 +196,7 @@ body {
   color: white;
   margin-bottom: 50px;
 }
-.quick-btn {
+.quick__btn {
   font-family: "Source Sans Pro";
   font-weight: 700;
   font-size: 16px;
